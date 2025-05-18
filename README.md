@@ -12,8 +12,23 @@ To run TCP-Chat, ensure you are using a Linux bash terminal and follow these ste
    $ go build TCPChat.go
    $ ./TCPChat [port]
 
+2. **Client Mode**: Connect to the server using the provided IP address and port.
+   ```bash
+   $ cd .. to get back from the server folder
+   nc locathost [port]
+   Example:
+   nc 127.0.0.1 8080
+   or 
+   nc your ip 8080
+   ```
+
 ## Changing Username
 
 Users can change their username using the `/name` command within the chat session. Here’s how it works:
 
 - **Command Format**: To change your username, type `/name new_username` and press Enter.
+
+- **appendix**
+![alt text](image.png)
+
+
