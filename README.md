@@ -19,7 +19,7 @@ To run TCP-Chat, ensure you are using a Linux bash terminal and follow these ste
    Example:
    nc localhost 8989 OR nc 127.0.0.1 8980
    or 
-   nc your ip 8080 :)
+   nc your ip 8989 :)
    ```
 
 ## Changing Username
